@@ -64,8 +64,7 @@ QuizWhiz/
 ### Backend Setup
 1. Clone the repository
    ```bash
-   git clone [ https://github.com/gulshan-pandey/QuizWhiz.git    
-]
+   git clone [https://github.com/gulshan-pandey/QuizWhiz.git]
    ```
 
 2. Navigate to Backend directory
