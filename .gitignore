@@ -1,0 +1,9 @@
+.idea
+.vscode
+target
+node_modules
+mvnw.cmd
+mvnw
+*.iml
+Backend/target
+Backend/.idea
