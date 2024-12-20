@@ -28,7 +28,7 @@ public class QuestionService {
 
         ObjectMapper objectMapper = new ObjectMapper();
         try {
-            File file = new File("Backend/src/main/java/com/my/quiz/questions.json");
+            File file = new File("Frontend/questions.json");
             List<QuizQuestion> questions = objectMapper.readValue(file, new TypeReference<List<QuizQuestion>>() {});
             // Save the questions into the database
             questionRepo.saveAll(questions);
